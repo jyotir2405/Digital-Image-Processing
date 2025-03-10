@@ -1,5 +1,10 @@
-clc;clear;close all;
-img=imread('/Users/dhanhanjaypachori/Downloads/jyoti.jpg');
+%Watermarking
+%Created by Jyotiraditya Bhos
+
+clc;
+clear all;
+close all;
+img=imread('input.jpg');
 if size(img,3)==3
     img=rgb2gray(img);
 end
